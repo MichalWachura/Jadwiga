@@ -24,7 +24,7 @@
     </section>
     <section class="gallery">
         <div class="gallery__item">
-            <img src="https://plus.unsplash.com/premium_photo-1673567872063-ad00f02f7e2d?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="painting one">
+            <img class="gallery__paint" src="./img/1.webp" alt="painting one">
             <ul class="gallery__txt_box">
                 <li class="txt__box__title">title</li>
                 <li class="txt__box__info">info</li>
@@ -32,7 +32,7 @@
             </ul>
         </div>
         <div class="gallery__item">
-            <img src="https://images.unsplash.com/photo-1579783928621-7a13d66a62d1?q=80&w=1980&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="painting one">
+            <img class="gallery__paint" src="./img/2.webp" alt="painting one">
             <ul class="gallery__txt_box">
                 <li class="txt__box__title">title</li>
                 <li class="txt__box__info">info</li>
@@ -40,7 +40,7 @@
             </ul>
         </div>
         <div class="gallery__item">
-            <img src="https://images.unsplash.com/photo-1531489956451-20957fab52f2?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="painting one">
+            <img class="gallery__paint"  src="./img/3.webp" alt="painting one">
             <ul class="gallery__txt_box">
                 <li class="txt__box__title">title</li>
                 <li class="txt__box__info">info</li>
@@ -48,7 +48,7 @@
             </ul>
         </div>
         <div class="gallery__item">
-            <img src="https://images.unsplash.com/photo-1487147264018-f937fba0c817?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="painting one">
+            <img  class="gallery__paint" src="./img/4.webp" alt="painting one">
             <ul class="gallery__txt_box">
                 <li class="txt__box__title">title</li>
                 <li class="txt__box__info">info</li>
@@ -56,7 +56,7 @@
             </ul>
         </div>
         <div class="gallery__item">
-            <img src="https://images.unsplash.com/photo-1553949345-eb786bb3f7ba?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="painting one">
+            <img  class="gallery__paint" src="./img/5.webp" alt="painting one">
             <ul class="gallery__txt_box">
                 <li class="txt__box__title">title</li>
                 <li class="txt__box__info">info</li>
@@ -64,7 +64,7 @@
             </ul>
         </div>
         <div class="gallery__item">
-            <img src="https://images.unsplash.com/photo-1553949345-eb786bb3f7ba?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="painting one">
+            <img class="gallery__paint" src="./img/6.webp" alt="painting one">
             <ul class="gallery__txt_box">
                 <li class="txt__box__title">title</li>
                 <li class="txt__box__info">info</li>
@@ -72,7 +72,7 @@
             </ul>
         </div>
         <div class="gallery__item">
-            <img src="https://images.unsplash.com/photo-1553949345-eb786bb3f7ba?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="painting one">
+            <img  class="gallery__paint" src="./img/7.webp" alt="painting one">
             <ul class="gallery__txt_box">
                 <li class="txt__box__title">title</li>
                 <li class="txt__box__info">info</li>
@@ -80,7 +80,15 @@
             </ul>
         </div>
         <div class="gallery__item">
-            <img src="https://images.unsplash.com/photo-1553949345-eb786bb3f7ba?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="painting one">
+            <img  class="gallery__paint" src="./img/8.webp" alt="painting one">
+            <ul class="gallery__txt_box">
+                <li class="txt__box__title">title</li>
+                <li class="txt__box__info">info</li>
+                <li class="txt__box__year">year</li>
+            </ul>
+        </div>
+        <div class="gallery__item">
+            <img class="gallery__paint" src="./img/9.webp" alt="painting one">
             <ul class="gallery__txt_box">
                 <li class="txt__box__title">title</li>
                 <li class="txt__box__info">info</li>
@@ -89,6 +97,12 @@
         </div>
        
     </section>
+    <div class="popup hidden"> 
+        <button aria-label="Close Popup" class="popup__close"><i class="fa fa-close"></i></button>
+        <img src="" alt="" class="popup__img">
+        <button aria-label="Previous Image" class="popup__arrow popup__arrow--left"><i class='fas fa-caret-left'></i></button>
+        <button aria-label="Next Image" class="popup__arrow  popup__arrow--right"> <i class='fas fa-caret-right'></i></button>
+      </div>
     <script src="app.js"></script>
 </body>
 </html>
